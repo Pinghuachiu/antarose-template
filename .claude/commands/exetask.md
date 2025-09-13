@@ -7,40 +7,30 @@ model: sonnet
 
 請執行以下步驟：
 
-1. 首先讀取 ./plans/下所有計畫文件, 立即開始所有任務
+1. 首先讀取讀取工作執行項目以及開發清單在./plans/exeitems.md確認工作是否執行以及功能是否開發 立即開始所有任務
 
-2. 分析 PRD 文件中的任務分配，識別需要執行的任務及其對應的代理：
-   - Costa (Senior Backend Engineer) - 後端開發任務
-   - Sharon (Senior Backend Engineer) - 後端開發任務
-   - Chris (Senior Backend Engineer) - 後端開發任務
-   - Shawn (Senior Frontend Engineer) - 前端/SDK 開發任務
-   - Waylon (Senior Frontend Engineer) - 前端/SDK 開發任務
-   - Luke (Senior DevOps Engineer) - 基礎設施和部署任務
-   - Lucia (Senior QA Engineer) - 測試任務
-   - Ann (Senior QA Engineer) - 測試任務
-   - Edward (Senior Project Manager) - 項目管理任務
-   - Leo (Senior System Architect ) - 系統架構的分析以及使用的技術棧
 
-3. 根據任務分配，使用 Task 工具調用相應的代理來執行具體任務
 
-4. 讀取執行項目管理計劃開始依計畫開發代碼
+2. 根據任務分配，使用 Task 工具調用相應的代理來執行具體任務
 
-5. 為每個分配的任務創建執行計劃，並跟蹤執行進度
+3. 讀取執行項目管理計劃開始依計畫開發代碼
 
-6. 將執行結果和進度更新寫入 ./tasks/execution_log.md 文件
+4. 為每個分配的任務創建執行計劃，並跟蹤執行進度
 
-7. 確保執行過程中保持與相關代理的有效溝通，並在需要時請求進度更新
+5. 將執行結果和進度更新寫入 ./tasks/execution_log.md 文件
 
-8. 多agent並行任務以提升工作效率
+6. 確保執行過程中保持與相關代理的有效溝通，並在需要時請求進度更新
 
-9. 版本變更訊息/安裝以及測試方式要寫在README.md
+7. 多agent並行任務以提升工作效率
 
-10. 實施自動化測試流程：
+8. 版本變更訊息/安裝以及測試方式要寫在README.md
+
+9. 實施自動化測試流程：
     - 為每個功能模組建立單元測試
     - 執行集成測試驗證各模組協作
     - 進行系統測試確保整體功能正常
 
-11. 建立持續集成流程：
+10. 建立持續集成流程：
     - 每次提交代碼後自動運行測試
     - 自動化代碼質量檢查
     - 自動化部署到測試環境

@@ -69,3 +69,4 @@ Do not modify original reqirment file ./accessToken.md
 10. ./plans以及./tasks 目錄不可放進版本控制
 11. 只對生成的代碼版本控制
 12. 代碼生成跟版本控制在./code/下,./code不存在就建一個
+13. 禁用絕對徑例操作指令bash
