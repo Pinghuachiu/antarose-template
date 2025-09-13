@@ -7,15 +7,14 @@ model: sonnet
 
 請執行以下步驟：
 
-1. 首先讀取 ./plans/下所有計畫文件, 立即開始所有任務
+1. 首先讀取 ./plans/下所有計畫文件, 只完成軟體開發以及測試
 
-2. 分析 PRD 文件中的任務分配，識別需要執行的任務及其對應的代理：
+2. 分析 ./docs/prd.md 文件中的任務分配，識別需要執行的任務及其對應的代理：
    - Costa (Senior Backend Engineer) - 後端開發任務
    - Sharon (Senior Backend Engineer) - 後端開發任務
    - Chris (Senior Backend Engineer) - 後端開發任務
    - Shawn (Senior Frontend Engineer) - 前端/SDK 開發任務
    - Waylon (Senior Frontend Engineer) - 前端/SDK 開發任務
-   - Luke (Senior DevOps Engineer) - 基礎設施和部署任務
    - Lucia (Senior QA Engineer) - 測試任務
    - Ann (Senior QA Engineer) - 測試任務
    - Edward (Senior Project Manager) - 項目管理任務
@@ -30,8 +29,6 @@ model: sonnet
 6. 將執行結果和進度更新寫入 ./tasks/execution_log.md 文件
 
 7. 確保執行過程中保持與相關代理的有效溝通，並在需要時請求進度更新
-
-8. 多agent並行任務以提升工作效率
 
 9. 版本變更訊息/安裝以及測試方式要寫在README.md
 
@@ -54,14 +51,11 @@ model: sonnet
 6. 開發時中英註解都要寫完整
 7. 一次性開發完
 8. ./accessToken.md CLAUDE.md 這兩個檔案不可放進版本控制
-9. ./.claude 目錄不可放進版本控制
-10. ./plans以及./tasks 目錄不可放進版本控制
-11. 只對生成的代碼版本控制
-12. 所有的Agent己經都在./.claude/agents/目錄下不要再自己建立Agent了
-13. 代碼生成跟版本控制在./code/目錄下,./code不存在就建一個
+9. 只對生成的代碼版本控制
+10. 所有的Agent己經都在./.claude/agents/目錄下不要再自己建立Agent了
+11. 代碼生成跟版本控制在./code/目錄下,./code不存在就建一個
 
 ## 執行完成後的驗證步驟
 1. 確認所有任務都已完成並通過測試
 2. 生成完整的執行報告
-3. 更新項目文檔
-4. 準備部署包
+3. 
